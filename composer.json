@@ -10,6 +10,7 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
+        "drupal-composer/drupal-scaffold": "^2.5",
         "drush/drush": "^9.0.0",
         "openeuropa/task-runner": "^1.0@beta"
     },
@@ -18,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EcEuropa\\Toolkit\\": "./src/"
+            "VerbruggenAlex\\DrupalToolkit\\": "./src/"
         }
     }
 }

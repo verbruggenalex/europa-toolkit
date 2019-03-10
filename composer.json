@@ -1,6 +1,6 @@
 {
-    "name": "europa/toolkit",
-    "description": "NextEuropa Toolkit packaged for composer",
+    "name": "verbruggenalex/drupal-toolkit",
+    "description": "Drupal Toolkit packaged for composer",
     "license": "EUPL-1.1",
     "homepage": "https://github.com/ec-europa/toolkit",
     "support": {

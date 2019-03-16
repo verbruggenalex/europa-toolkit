@@ -2,7 +2,7 @@
     "require": {
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/core": "^8.6.0",
-        "drush/drush": "^9.0.0",
+        "drush/drush": "^9.0.0"
     },
     "require-dev": {
         "alchemy/zippy": "0.4.3",

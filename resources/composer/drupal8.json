@@ -1,5 +1,6 @@
 {
     "require": {
+        "composer/installers": "^1.2",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/core": "^8.6.0",
         "drush/drush": "^9.0.0"

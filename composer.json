@@ -1,6 +1,7 @@
 {
     "name": "verbruggenalex/drupal-toolkit",
     "description": "Drupal Toolkit packaged for composer",
+    "type": "composer-plugin",
     "license": "EUPL-1.1",
     "homepage": "https://github.com/ec-europa/toolkit",
     "support": {
@@ -9,6 +10,7 @@
     },
     "require": {
         "composer/installers": "^1.2",
+        "composer-plugin-api": "^1.1",
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drush/drush": "^9.0.0",

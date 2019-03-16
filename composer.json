@@ -12,7 +12,8 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drush/drush": "^9.0.0",
-        "openeuropa/task-runner": "^1.0@beta"
+        "openeuropa/task-runner": "^1.0@beta",
+        "wikimedia/composer-merge-plugin": "^1.4"
     },
     "config": {
         "sort-packages": true

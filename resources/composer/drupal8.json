@@ -1,0 +1,55 @@
+{
+    "require": {
+        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/core": "^8.6.0",
+        "drush/drush": "^9.0.0",
+    },
+    "require-dev": {
+        "alchemy/zippy": "0.4.3",
+        "drupal/console": "^1.0.2",
+        "drupal/devel": "^2.0",
+        "drupal/drupal-extension": "^3.4",
+        "webflo/drupal-core-require-dev": "^8.6.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "scripts": {
+        "pre-install-cmd": [],
+        "pre-update-cmd": [],
+        "post-install-cmd": [],
+        "post-update-cmd": []
+    },
+    "extra": {
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "patches": {
+        },
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "drush/Commands/{$name}": ["type:drupal-drush"]
+        },
+        "drupal-scaffold": {
+            "initial": {
+                ".editorconfig": "../.editorconfig",
+                ".gitattributes": "../.gitattributes"
+            }
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ]
+}

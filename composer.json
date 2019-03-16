@@ -15,7 +15,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drush/drush": "^9.0.0",
         "openeuropa/task-runner": "^1.0@beta",
-        "wikimedia/composer-merge-plugin": "^1.4"
+        "wikimedia/composer-merge-plugin": "dev-master"
     },
     "config": {
         "sort-packages": true
